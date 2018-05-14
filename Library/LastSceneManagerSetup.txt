@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/back1/Scenes/MainPositionTower.unity
+  isLoaded: 1
+  isActive: 1
