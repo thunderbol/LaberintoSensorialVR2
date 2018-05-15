@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaberintoSensorialVR2", "LaberintoSensorialVR2.csproj", "{BA675646-7020-7485-FB17-60B46CC35BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaberintoSensorialVR2.Editor", "LaberintoSensorialVR2.Editor.csproj", "{DC1FF274-0E84-1232-1E06-FAF82FCB3022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA675646-7020-7485-FB17-60B46CC35BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA675646-7020-7485-FB17-60B46CC35BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA675646-7020-7485-FB17-60B46CC35BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA675646-7020-7485-FB17-60B46CC35BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1FF274-0E84-1232-1E06-FAF82FCB3022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1FF274-0E84-1232-1E06-FAF82FCB3022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1FF274-0E84-1232-1E06-FAF82FCB3022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1FF274-0E84-1232-1E06-FAF82FCB3022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
