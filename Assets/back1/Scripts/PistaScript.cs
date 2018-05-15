@@ -8,16 +8,16 @@ public class PistaScript : MonoBehaviour {
     public GameObject BrazoAll;
     public GameObject player;
     public GameObject[] Pistas;
-    public Animator[] animPist;
+    //public Animator[] animPist;
     bool Comprobador;
     float ValorRot;
 
     void Start()
     {
-        animPist[0] = Pistas[0].GetComponent<Animator>();
+        /*animPist[0] = Pistas[0].GetComponent<Animator>();
         animPist[1] = Pistas[1].GetComponent<Animator>();
         animPist[2] = Pistas[2].GetComponent<Animator>();
-        animPist[3] = Pistas[3].GetComponent<Animator>();
+        animPist[3] = Pistas[3].GetComponent<Animator>();*/
 
         Comprobador = false;
     }
@@ -32,13 +32,13 @@ public class PistaScript : MonoBehaviour {
         {
             Comprobador = false;
             Pistas[0].SetActive(false);
-            animPist[0].SetBool("Mostrar", false);
+            //animPist[0].SetBool("Mostrar", false);
 
         }
         else if (Comprobador == false)
         {
             Pistas[0].SetActive(true);
-            animPist[0].SetBool("Mostrar", true);
+            //animPist[0].SetBool("Mostrar", true);
             StartCoroutine(EsperarPistas());
         }
 
@@ -47,9 +47,9 @@ public class PistaScript : MonoBehaviour {
             Pistas[1].SetActive(false);
             Pistas[2].SetActive(false);
             Pistas[3].SetActive(false);
-            animPist[1].SetBool("Mostrar", false);
+            /*animPist[1].SetBool("Mostrar", false);
             animPist[2].SetBool("Mostrar", false);
-            animPist[3].SetBool("Mostrar", false);
+            animPist[3].SetBool("Mostrar", false);*/
         }
 
     }
@@ -72,9 +72,9 @@ public class PistaScript : MonoBehaviour {
             Pistas[1].SetActive(true);
             Pistas[2].SetActive(true);
             Pistas[3].SetActive(true);
-            animPist[1].SetBool("Mostrar", true);
+            /*animPist[1].SetBool("Mostrar", true);
             animPist[2].SetBool("Mostrar", true);
-            animPist[3].SetBool("Mostrar", true);
+            animPist[3].SetBool("Mostrar", true);*/
         }
     }
 

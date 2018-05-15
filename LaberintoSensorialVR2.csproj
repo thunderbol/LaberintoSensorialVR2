@@ -421,12 +421,16 @@
     <Compile Include="Assets\back1\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
     <Compile Include="Assets\back1\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
     <Compile Include="Assets\back1\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\back1\Scripts\Activeguide.cs" />
     <Compile Include="Assets\back1\Scripts\Fisica.cs" />
     <Compile Include="Assets\back1\Scripts\LookRotation.cs" />
     <Compile Include="Assets\back1\Scripts\Movimiento.cs" />
+    <Compile Include="Assets\back1\Scripts\NavMesAgent.cs" />
+    <Compile Include="Assets\back1\Scripts\NPCMove.cs" />
     <Compile Include="Assets\back1\Scripts\PararTiempo.cs" />
     <Compile Include="Assets\back1\Scripts\PistaScript.cs" />
     <Compile Include="Assets\back1\Scripts\PlayerPosition.cs" />
+    <Compile Include="Assets\back1\Scripts\SerializefieldAttribute.cs" />
     <Compile Include="Assets\back1\Scripts\Timer.cs" />
     <Compile Include="Assets\back1\Scripts\Tocado.cs" />
     <Compile Include="Assets\back1\Scripts\TriggerItemRay.cs" />
