@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class TriggerItemTower : MonoBehaviour {
 
-    public GameObject ubicacion;
+	public GameObject ubicacion;
     public GameObject player;
     bool Comprobador;
 
     private string playerget = "Player";
-
+    
     public void TowerEnter()
     {
         Comprobador = true;
@@ -30,5 +30,4 @@ public class TriggerItemTower : MonoBehaviour {
             player.transform.position = ubicacion.transform.position;
         }
     }
-
 }

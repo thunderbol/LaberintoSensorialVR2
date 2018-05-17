@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerItemRay : MonoBehaviour {
+public class TriggerItemRay : MonoBehaviour
+{
 
     public GameObject Cubo;
     //public GameObject Player;

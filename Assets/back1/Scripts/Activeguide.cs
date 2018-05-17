@@ -10,11 +10,11 @@ public class Activeguide : MonoBehaviour {
     public float Tiempo = 5.0f;
     bool Comprobador;
 
-    public void GuiaEnter()
+    public void GuiaEnter ()
     {
         Comprobador = true;
         StartCoroutine(EsperarPistas());
-    }
+	}
 
     public void GuiaExit()
     {

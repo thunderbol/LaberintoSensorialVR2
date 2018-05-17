@@ -3102,8 +3102,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1898374229}
-          m_MethodName: RayoEnter
+        - m_Target: {fileID: 1898374228}
+          m_MethodName: TowerEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3119,8 +3119,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1898374229}
-          m_MethodName: RayoExit
+        - m_Target: {fileID: 1898374228}
+          m_MethodName: TowerExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3161,7 +3161,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: c93132fa8c78b584e9384e4c6174053f, type: 2}
+  - {fileID: 2100000, guid: a652830e6830130448c7dfb1b0bd8d7d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4871,8 +4871,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1898374227}
-          m_MethodName: GuiaEnter
+        - m_Target: {fileID: 1898374229}
+          m_MethodName: RayoEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4888,8 +4888,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1898374227}
-          m_MethodName: GuiaExit
+        - m_Target: {fileID: 1898374229}
+          m_MethodName: RayoExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4930,7 +4930,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: c93132fa8c78b584e9384e4c6174053f, type: 2}
+  - {fileID: 2100000, guid: 80da0250959a6834da38446241750953, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14025,7 +14025,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485852096}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -14775,8 +14775,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1898374228}
-          m_MethodName: TowerEnter
+        - m_Target: {fileID: 1898374227}
+          m_MethodName: GuiaEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -14792,8 +14792,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1898374228}
-          m_MethodName: TowerExit
+        - m_Target: {fileID: 1898374227}
+          m_MethodName: GuiaExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
