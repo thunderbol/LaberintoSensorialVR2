@@ -415,6 +415,8 @@
     <Compile Include="Assets\back1\Scripts\TriggerItemRay.cs" />
     <Compile Include="Assets\back1\Scripts\TriggerItemTower.cs" />
     <Compile Include="Assets\back1\Scripts\TriggerPista.cs" />
+    <Compile Include="Assets\Effects\Script\ConGUI.cs" />
+    <Compile Include="Assets\Effects\Script\Lighting.cs" />
     <Compile Include="Assets\piramide\3dnemo-Tornado\Tornado(folder)\Plugins\Perlin.cs" />
     <Compile Include="Assets\piramide\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Camera\v3rdPersonCamera.cs" />
     <Compile Include="Assets\piramide\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
@@ -536,6 +538,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cartoon Temple Building Kit\ReadMe.txt" />
+    <None Include="Assets\Effects\MagicEffectsPackFree\ReadMe.txt" />
     <None Include="Assets\back1\Ambiente\Toby Fredson\Rocky Hills Environment - Light Pack\Legacy Project\Legacy Project_Read Me!.txt" />
     <None Include="Assets\back1\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
     <None Include="Assets\back1\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
