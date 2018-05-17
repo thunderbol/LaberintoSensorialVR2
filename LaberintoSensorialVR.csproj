@@ -415,6 +415,7 @@
     <Compile Include="Assets\back1\Scripts\TriggerItemRay.cs" />
     <Compile Include="Assets\back1\Scripts\TriggerItemTower.cs" />
     <Compile Include="Assets\back1\Scripts\TriggerPista.cs" />
+    <Compile Include="Assets\DesactivarCode.cs" />
     <Compile Include="Assets\Effects\Script\ConGUI.cs" />
     <Compile Include="Assets\Effects\Script\Lighting.cs" />
     <Compile Include="Assets\piramide\3dnemo-Tornado\Tornado(folder)\Plugins\Perlin.cs" />

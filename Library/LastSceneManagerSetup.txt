@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/back1/Scenes/MainPositionTower.unity
+- path: Assets/back1/Scenes/laberinto1,2.unity
   isLoaded: 1
   isActive: 1

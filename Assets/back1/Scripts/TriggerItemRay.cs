@@ -6,37 +6,20 @@ public class TriggerItemRay : MonoBehaviour {
 
     public GameObject Cubo;
     //public GameObject Player;
-    public float Tiempo = 50000f;
+    public float Tiempo;
 
 
-     void Start()
-    {
-        
-    }
-    private void Update()
-    {
-       
-    }
-
-    private void OnTriggerEnter(Collider other)
+	public void RayoEnter()
     {
         Cubo.SetActive(true);
         StartCoroutine(ContarTiempo());
-
-
     }
 
     IEnumerator ContarTiempo()
     {
         yield return new WaitForSecondsRealtime(Tiempo);
             print(Tiempo);
-            Cubo.SetActive(false);
-        
-
-
-
-
-
+            Cubo.SetActive(false);      
         //StartCoroutine(ContarTiempo());
     }
 }
