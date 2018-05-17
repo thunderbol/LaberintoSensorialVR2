@@ -6,26 +6,29 @@ using UnityEngine;
 public class Activeguide : MonoBehaviour {
 
     public GameObject Guia;
-
     const string PositionKey = "PlayerPosition";
-
     public float Tiempo = 5.0f;
+    bool Comprobador;
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    public void GuiaEnter()
+    {
+        Comprobador = true;
+        StartCoroutine(EsperarPistas());
+    }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+    public void GuiaExit()
+    {
+        Comprobador = false;
+    }
+
+    IEnumerator EsperarPistas()
+    {
+        yield return new WaitForSecondsRealtime(2.0f);
+        if (Comprobador == true)
         {
             Activeposition();
         }
-
-
-	}
+    }
 
     private void Activeposition()
     {
